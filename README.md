@@ -5,5 +5,4 @@ This is a team collaboration project for a course. The project involves creating
 - Portfolio website development 
 - Collaboration among team members 
 - Use of HTML, CSS, and jQuery technologies.
-# team-work
-# team-work
+
