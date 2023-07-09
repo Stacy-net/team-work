@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/normalize.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/resume.css" />
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <!-- SITE WRAPPER -->
+  <div class="site_wrapper">
+    <!-- NAV -->
+    <nav class="nav">
+      <div class="logo">
+        <a href="#home">
+          <p class="logo_text">team work</p>
+        </a>
+      </div>
+      <ul class="nav_list">
+        <li class="nav_item">
+          <a href="#home" class="nav_link"><i class="fa-solid fa-house"></i>
+            <span class="tooltip">HOME</span>
+          </a>
+        </li>
+        <li class="nav_item">
+          <a href="#about" class="nav_link"><i class="fa-solid fa-user"></i>
+            <span class="tooltip">About</span>
+          </a>
+        </li>
+        <li class="nav_item">
+          <a href="#skills" class="nav_link"><i class="fa-solid fa-gear"></i>
+            <span class="tooltip">Skills</span>
+          </a>
+        </li>
+        <li class="nav_item">
+          <a href="#experience" class="nav_link"><i class="fa-solid fa-user-graduate"></i>
+            <span class="tooltip exp">Experience</span>
+          </a>
+        </li>
+        <li class="nav_item">
+          <a href="#works" class="nav_link"><i class="fa-solid fa-briefcase"></i>
+            <span class="tooltip">Works</span>
+          </a>
+        </li>
+        <li class="nav_item">
+          <a href="#blog" class="nav_link"><i class="fa-solid fa-comments"></i>
+            <span class="tooltip">Blog</span>
+          </a>
+        </li>
+        <li class="nav_item">
+          <a href="#contact" class="nav_link"><i class="fa-solid fa-envelope"></i></i>
+            <span class="tooltip">Contact</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- FIRST BLOCK -->
+    <section class="first_screen section" id="home">
+      <div class="hero">
+        <div id="particles-js"></div>
+        <div class="hero_center_block">
+          <div class="hero_foto">
+            <img src="assets/img/video_img.png" alt="" />
+            <div class="hero_video" onclick="playVideo()">
+              <i class="fa-solid fa-play"></i>
+            </div>
+          </div>
+          <h1 class="hero_title">John Doe</h1>
+          <p class="hero_desc">I am Full stack Web developer</p>
+        </div>
+        <div class="scroll">
+          <a href="#about">
+            <div class="elipse"></div>
+            <p class="scroll_text">Scroll Down</p>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Modal video -->
+    <div class="modal_wrapper">
+      <div class="modal">
+        <iframe src="#" id="player" title="About me" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="modal_close" onclick="closeModal()">
+        <span></span>
+      </div>
+    </div>
+    <!-- ABOUT BLOCK -->
+    <section class="aboutMe section" id="about">
+      <div class="container">
+        <h3 class="block_title">About Me</h3>
+        <div class="about_wrapper">
+          <div class="about_img">
+            <div class="about_img_block">
+              <img src="assets/img/video_img.png" alt="" />
+            </div>
+          </div>
+          <div class="about_progress_block">
+            <div class="about_progress_info">
+              <p class="about_progres_desc">
+                I Am John Doe . I Am Proposal Web Designer And Video Editor. I
+                have rich experience in web site design and building and
+                customization, also I am good at WordPress. and also make
+                proposal video editor for you band
+              </p>
+              <a href="resume.html" class="resume_btn" target="_blank">View resume</a>
+            </div>
+            <div class="about_progress">
+              <span>HTML</span>
+              <progress id="html" max="100" value="92">92%</progress>
+              <span>CSS</span>
+              <progress id="css" max="100" value="95">95%</progress>
+              <span>Java Script</span>
+              <progress id="js" max="100" value="87">87%</progress>
+              <span>JQuery</span>
+              <progress id="jq" max="100" value="87">87%</progress>
+              <span>Wordpress</span>
+              <progress id="wp" max="100" value="83">83%</progress>
+            </div>
+          </div>
+        </div>
+        <div class="complite_wrapper">
+          <div class="complite_item">
+            <img src="assets/img/🦆 icon _fire_.png" alt="" />
+            <div class="compile_desc_wrapper">
+              <p class="compite_number">198</p>
+              <p class="compile_sub">Projects completed</p>
+            </div>
+          </div>
+          <div class="complite_item">
+            <img src="assets/img/🦆 icon _Building_.png" alt="" />
+            <div class="compile_desc_wrapper">
+              <p class="compite_number">102</p>
+              <p class="compile_sub">Ruining project</p>
+            </div>
+          </div>
+          <div class="complite_item">
+            <img src="assets/img/peoles.png" alt="" />
+            <div class="compile_desc_wrapper">
+              <p class="compite_number">90</p>
+              <p class="compile_sub">Satisfied clients</p>
+            </div>
+          </div>
+          <div class="complite_item">
+            <img src="assets/img/ball.png" alt="" />
+            <div class="compile_desc_wrapper">
+              <p class="compite_number">85</p>
+              <p class="compile_sub">Nominees winner</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--    SKILLS    -->
+    <section class="about_services section" id="skills">
+      <div class="container">
+        <h3 class="block_title">Services</h3>
+        <div class="services_bord">
+          <div class="services_wrapper">
+            <div class="grid_item">
+              <img src="./assets/img/icon_HTML.svg" alt="html" />
+              <h3>HTML5</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="grid_item">
+              <img src="./assets/img/css.svg" alt="css" />
+              <h3>CSS3</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="grid_item">
+              <img src="./assets/img/icon-js.svg" alt="js" />
+              <h3>JAVASCRIPT</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="grid_item">
+              <img src="./assets/img/git.svg" alt="git" />
+              <h3>GIT</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="grid_item">
+              <img src="./assets/img/sass.svg" alt="sass" />
+              <h3>SASS</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="grid_item">
+              <img src="./assets/img/wordpress.svg" alt="wordpress" />
+              <h3>WORDPRESS</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="experience section" id="experience">
+      <div class="container exp">
+        <h3 class="block_title">Experience</h3>
+        <div class="experience_wrapper">
+          <ul class="experience_left">
+            <li class="exp_item">
+              <p class="exp_date">2022 - Present</p>
+              <p class="exp_title">Academic Degree</p>
+              <p class="exp_desc">
+                Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec
+                admodum perfecto.
+              </p>
+            </li>
+            <li class="exp_item">
+              <p class="exp_date">2022 - Present</p>
+              <p class="exp_title">Academic Degree</p>
+              <p class="exp_desc">
+                Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec
+                admodum perfecto.
+              </p>
+            </li>
+            <li class="exp_item">
+              <p class="exp_date">2022 - Present</p>
+              <p class="exp_title">Academic Degree</p>
+              <p class="exp_desc">
+                Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec
+                admodum perfecto.
+              </p>
+            </li>
+          </ul>
+          <ul class="experience_right">
+            <li class="exp_item">
+              <p class="exp_date">2022 - Present</p>
+              <p class="exp_title">Academic Degree</p>
+              <p class="exp_desc">
+                Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec
+                admodum perfecto.
+              </p>
+            </li>
+            <li class="exp_item">
+              <p class="exp_date">2022 - Present</p>
+              <p class="exp_title">Academic Degree</p>
+              <p class="exp_desc">
+                Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec
+                admodum perfecto.
+              </p>
+            </li>
+            <li class="exp_item">
+              <p class="exp_date">2022 - Present</p>
+              <p class="exp_title">Academic Degree</p>
+              <p class="exp_desc">
+                Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec
+                admodum perfecto.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORKS -->
+    <section class="works section" id="works">
+      <div class="container">
+        <h3 class="block_title">Recent works</h3>
+
+        <ul class="works_menu">
+          <li class="menu_item">
+            <a href="#everything" class="menu_link">Everything</a>
+          </li>
+          <li class="menu_item">
+            <a href="#creative" class="menu_link">Creative</a>
+          </li>
+          <li class="menu_item">
+            <a href="#art" class="menu_link">Art</a>
+          </li>
+          <li class="menu_item">
+            <a href="#design" class="menu_link">Design</a>
+          </li>
+          <li class="menu_item">
+            <a href="#branding" class="menu_link">Branding</a>
+          </li>
+        </ul>
+      </div>
+      <div class="container works_wrapper">
+        <div class="blog_works">
+          <div class="works_img">
+            <img src="assets/img/works-screen-1.png" />
+            <div class="work_overlay">
+              <a href="works.html">More</a>
+            </div>
+          </div>
+
+          <div class="works_img">
+            <img src="assets/img/works-screen-2.jpg" />
+            <div class="work_overlay">
+              <a href="works.html">More</a>
+            </div>
+          </div>
+
+          <div class="works_img">
+            <img src="assets/img/works-screen-3.png" />
+            <div class="work_overlay">
+              <a href="works.html">More</a>
+            </div>
+          </div>
+
+          <div class="works_img">
+            <img src="assets/img/works-screen-4.svg" />
+            <div class="work_overlay">
+              <a href="works.html">More</a>
+            </div>
+          </div>
+
+          <div class="works_img">
+            <img src="assets/img/works-screen-5.svg" />
+            <div class="work_overlay">
+              <a href="works.html">More</a>
+            </div>
+          </div>
+
+          <div class="works_img">
+            <img src="assets/img/works-screen-6.svg" />
+            <div class="work_overlay">
+              <a href="works.html">More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOG BLOCK -->
+    <section class="blog section" id="blog">
+      <div class="container">
+        <h3 class="block_title">Latest Posts</h3>
+        <div class="blog_posts">
+          <div class="post">
+            <div class="post_img">
+              <img src="assets/img/post1.jpeg" alt="" />
+            </div>
+            <div class="post_info">
+              <a href="">
+                <p class="post_title">
+                  11 Reasons Why You Should Become a Web Developer
+                </p>
+              </a>
+            </div>
+          </div>
+          <div class="post">
+            <div class="post_img">
+              <img src="assets/img/post2.jpg" alt="" />
+            </div>
+            <div class="post_info">
+              <a href="">
+                <p class="post_title">
+                  The 12 Best IT Online Certifications in 2023
+                </p>
+              </a>
+            </div>
+          </div>
+          <div class="post">
+            <div class="post_img">
+              <img src="assets/img/post3.jpeg" alt="" />
+            </div>
+            <div class="post_info">
+              <a href="">
+                <p class="post_title">
+                  Angular vs AngularJS: What’s in a Name?
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <a href="blog.html" class="more_btn">View more</a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <section class="footer section" id="contact">
+      <div class="container footer_container">
+        <div class="footer_wrapper">
+          <h3 class="footer_title">Get In Touch</h3>
+          <div class="footer_content">
+            <p class="footer_txt">
+              Let's talk about everything! <br>
+              Don't like forms? Send me an email👋
+            </p>
+          </div>
+        </div>
+        <form action="#">
+          <input class="input_name" type="text" placeholder="Your name">
+          <input type="text" placeholder="Your email"> <br>
+          <input type="text" placeholder="Your subject"> <br>
+          <textarea name="message" placeholder="Your message" id="txt_message" cols="62" rows="5"></textarea> <br>
+          <button class="footer_btn" type="submit">Submit</button>
+        </form>
+
+      </div>
+      <svg class="editorial" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28" preserveAspectRatio="none">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 
+    58-18 88-18s
+    58 18 88 18 
+    58-18 88-18 
+    58 18 88 18
+    v44h-352z" />
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="50" y="0" fill="#353353" />
+          <use xlink:href="#gentle-wave" x="50" y="3" fill="rgba(53, 51, 83, 0.8)" />
+          <use xlink:href="#gentle-wave" x="50" y="6" fill="rgba(53, 51, 83, 0.3)" />
+        </g>
+      </svg>
+    </section>
+  </div>
+  <script src="assets/js/jquery-3.6.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+
+</html>
